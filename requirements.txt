@@ -1,0 +1,31 @@
+# ==============================================================================
+# Music Gen Framework — Phase 1 Requirements
+# Python >= 3.11 required.
+# Install in Google Colab with:
+#   !pip install -q -r requirements.txt
+# ==============================================================================
+
+# --- Core deep learning stack -------------------------------------------------
+torch>=2.3.0
+torchaudio>=2.3.0
+numpy>=1.26.0
+
+# --- Audio I/O and DSP ---------------------------------------------------------
+soundfile>=0.12.1
+librosa>=0.10.2
+
+# --- Configuration, CLI, and environment ---------------------------------------
+PyYAML>=6.0.1
+python-dotenv>=1.0.1
+
+# --- Logging, progress, and system introspection --------------------------------
+rich>=13.7.1
+tqdm>=4.66.4
+psutil>=5.9.8
+
+# --- Development / testing (optional, install with `pip install -e ".[dev]"`) --
+# pytest>=8.2.0
+# pytest-cov>=5.0.0
+# black>=24.4.2
+# ruff>=0.4.8
+# mypy>=1.10.0
